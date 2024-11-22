@@ -22,15 +22,24 @@ public class Enemy : MonoBehaviour, IEnemy
     public GameObject Bullet;
 
     public Animator anim;
+
+
+    public GameObject target;
     void Start()
     {
-        
+        float timemore = Random.Range(-2, 2.1f);
+        timeBtwAttacks += timemore;
+
+        speed += timemore;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+
+        rotate(target.transform.position);
+        Attack();
     }
 
     public void TakeDamage(GameObject part, float d, Transform pos)
@@ -50,23 +59,32 @@ public class Enemy : MonoBehaviour, IEnemy
     {
         if (life <= 0)
         {
-            anim.SetTrigger("Die");
+           // anim.SetTrigger("Die");
             Destroy(gameObject, 1.3f);
-            if (n == 0)
-            {
-                if (!isDIed)
-                {
-                    isDIed = true;
-                    int myN = Random.Range(1, 11);
-
-                    if (myN >= 4)
-                    {
-                       
-                    }
-                }
-
-            }
-
         }
+    }
+
+
+
+    public void Attack()
+    {
+        if (currentTime < timeBtwAttacks) {
+
+            currentTime += Time.deltaTime;
+        }
+        else
+        {
+            currentTime = 0;
+            Instantiate(Bullet, BulletPoint.transform.position, BulletPoint.transform.rotation);
+        }
+    }
+    void rotate(Vector3 t)
+    {
+        Vector3 dir = t - transform.position;
+
+        float angleZ = Mathf.Atan2(dir.x, dir.z);
+        angleZ *= Mathf.Rad2Deg;
+
+        transform.rotation = Quaternion.Euler(0, angleZ, 0);
     }
 }

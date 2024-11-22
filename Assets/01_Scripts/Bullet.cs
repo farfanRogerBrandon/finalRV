@@ -6,12 +6,14 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public bool isPlayer = true;
-    public GameObject impactEffect;
+   // public GameObject impactEffect;
     public float damage = 2f;
     public float speed = 3.1f;
 
 
-    public AudioClip EnemyTakeDamage;
+    public GameObject impactEffect;
+
+//    public AudioClip EnemyTakeDamage;
 
     void Start()
     {
@@ -41,23 +43,34 @@ public class Bullet : MonoBehaviour
             //Debug.Log("HOLA");
             if (other.CompareTag("Enemies"))
             {
-               
+
 
                 IEnemy e = other.GetComponent<IEnemy>();
                 e.TakeDamage(impactEffect, damage, gameObject.transform);
-            
+
                 Destroy(gameObject);
             }
-          
+            else if (other.CompareTag("BulletEnemy"))
+            {
+
+
+               
+
+                Destroy(other.gameObject);
+                GameObject gm =  Instantiate(impactEffect, transform.position, Quaternion.identity);
+                Destroy(gm,1.2f);
+                Destroy(gameObject);
+
+            }
         }
         else
         {
-            if (other.CompareTag("Player"))
+            if (other.CompareTag("MainCamera"))
             {
                 //Debug.Log("HOLA ENEMY");
 
                 Player e = other.GetComponent<Player>();
-                e.TakeDamage(impactEffect, damage);
+                e.TakeDamage(impactEffect, damage, gameObject.transform);
                 Destroy(gameObject);
             }
         }
