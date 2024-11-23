@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    //Vector3(0,-0.980000019,0)
     public bool isPlayer = true;
    // public GameObject impactEffect;
     public float damage = 2f;
@@ -17,7 +18,7 @@ public class Bullet : MonoBehaviour
 
     void Start()
     {
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, 10f);
     }
 
     // Update is called once per frame

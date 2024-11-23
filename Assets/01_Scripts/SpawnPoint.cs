@@ -1,13 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class SpawnPoint : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public List<Transform> spawnPoints = new List<Transform>();
-    public List<GameObject> enemiesToSpawn = new List<GameObject>();
+    public List<GameObject> Gms1 = new List<GameObject>();
+    public List<GameObject> Gms2 = new List<GameObject>();
+    public List<GameObject> Gms3 = new List<GameObject>();
+    public List<GameObject> Gms4 = new List<GameObject>();
+    public List<GameObject> Gms5 = new List<GameObject>();
+    public List<GameObject> Gms6 = new List<GameObject>();
+    public List<GameObject> Gms7 = new List<GameObject>();
+    public List<GameObject> Gms8 = new List<GameObject>();
 
 
 
@@ -22,20 +29,44 @@ public class SpawnPoint : MonoBehaviour
     {
         
     }
+    public void SetGMACTIVE(int n) {
 
-    private void OnTriggerEnter(Collider other)
+
+        switch (n)
+        {
+            case 1:
+                Activate(Gms1);
+                break;
+            case 2:
+                Activate(Gms2); 
+                break;
+            case 3:
+                Activate(Gms3);
+                break;
+            case 4:
+                Activate(Gms4);
+                break;
+            case 5:
+                Activate(Gms5);
+                break;
+
+        }
+    }
+
+    public void Activate(List<GameObject> list)
     {
-        if (other.gameObject.CompareTag("Player")) 
-        { 
-            Destroy(gameObject);
-            ///
+        foreach (var item in list)
+        {
+            item.SetActive(true);
+        }
+    }
 
-            for (int  i = 0;  i < spawnPoints.Count;  i++)
-            {
-                GameObject enemy =  Instantiate(enemiesToSpawn[i], new Vector3(spawnPoints[i].position.x, spawnPoints[i].position.y, spawnPoints[i].position.z ), Quaternion.identity);
-            }
-
-
-        } 
+    public void Clean()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemies");
+        foreach (GameObject enemy in enemies)
+        {
+            Destroy(enemy);
+        }
     }
 }

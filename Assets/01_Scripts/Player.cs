@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
     public float currentDamage = 0f;
 
 
-    OVRInput.Button btn = OVRInput.Button.SecondaryHandTrigger;
+    OVRInput.Button btn = OVRInput.Button.SecondaryIndexTrigger;
     void Start()
     {
         
