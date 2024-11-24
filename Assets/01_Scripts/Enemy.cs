@@ -90,7 +90,7 @@ public class Enemy : MonoBehaviour, IEnemy
         GameObject gm = Instantiate(part, pos.position, gameObject.transform.rotation);
         Destroy(gm, 1.2f);
         // count++;
-        transform.Translate(Vector3.back * 73.7f*Time.deltaTime);
+        transform.Translate(Vector3.back * 133.7f*Time.deltaTime);
        
         letsDie();
     }

@@ -15,6 +15,8 @@ public class SpawnPoint : MonoBehaviour
     public List<GameObject> Gms6 = new List<GameObject>();
     public List<GameObject> Gms7 = new List<GameObject>();
     public List<GameObject> Gms8 = new List<GameObject>();
+    public List<GameObject> Gms9 = new List<GameObject>();
+    public List<GameObject> Gms10 = new List<GameObject>();
 
 
 
@@ -48,6 +50,24 @@ public class SpawnPoint : MonoBehaviour
                 break;
             case 5:
                 Activate(Gms5);
+                break;
+            case 6:
+                Activate(Gms6);
+                break;
+            case 7:
+                Activate(Gms7);
+                break;
+            case 8: //rápidos
+                Activate(Gms8);
+                break;
+            case 9:
+                Activate(Gms9);
+                break;
+            case 10:
+                Activate(Gms10);
+                    break;
+            case 11:
+                //Cargar nueva escena con el enemigo xd 
                 break;
 
         }

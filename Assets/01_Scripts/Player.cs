@@ -77,7 +77,7 @@ public class Player : MonoBehaviour
                 
                 if (currentDamage < maxDamageNormal)
                 {
-                    currentDamage += Time.deltaTime;
+                    currentDamage += Time.deltaTime+0.09f;
 
                 }
 
