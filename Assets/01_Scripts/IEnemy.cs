@@ -10,5 +10,7 @@ namespace Assets._01_Scripts
     public interface IEnemy
     {
         void TakeDamage(GameObject part, float d, Transform pos);
+        void TakeDamage2(GameObject part, float d, Transform pos);
+
     }
 }
