@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour, IEnemy
     public GameObject Bullet;
 
     public Animator anim;
-
+    public Animator gunAnim;
 
     public GameObject target;
 
@@ -52,21 +52,25 @@ public class Enemy : MonoBehaviour, IEnemy
     // Update is called once per frame
     void Update()
     {
-        rotate(target.transform.position);
-        if (enemyType == EnemyType.torreta) 
-        {
-            Attack();
-        }
-        else if (enemyType == EnemyType.cerca) 
-        {
-            AttackDisance();
-        }
-        else if ( enemyType == EnemyType.lejos)
-        {
-            Attack(); // por el momento, luego es con animación.
+        if (!isDIed) {
+
+            rotate(target.transform.position);
+            if (enemyType == EnemyType.torreta)
+            {
+                Attack();
+            }
+            else if (enemyType == EnemyType.cerca)
+            {
+                AttackDisance();
+            }
+            else if (enemyType == EnemyType.lejos)
+            {
+                Attack2(); // por el momento, luego es con animación.
+            }
+
         }
 
-        
+
     }
 
     public void TakeDamage(GameObject part, float d, Transform pos)
@@ -99,8 +103,9 @@ public class Enemy : MonoBehaviour, IEnemy
     {
         if (life <= 0)
         {
-           // anim.SetTrigger("Die");
-            Destroy(gameObject, 0f);
+           anim.SetTrigger("die");
+            isDIed = true;
+            Destroy(gameObject, 1f);
         }
     }
 
@@ -119,7 +124,19 @@ public class Enemy : MonoBehaviour, IEnemy
             gmm.GetComponent<Bullet>().speed = BulletSpeed;
         }
     }
+    public void Attack2()
+    {
+        if (currentTime < timeBtwAttacks)
+        {
 
+            currentTime += Time.deltaTime;
+        }
+        else
+        {
+            currentTime = 0;
+            anim.SetTrigger("attack");
+        }
+    }
     public bool isWalking = false;
     public float timeBtwnAnimsNEar = 2f;
     public void AttackDisance()

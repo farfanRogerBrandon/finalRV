@@ -34,6 +34,7 @@ public class Player : MonoBehaviour
 
 
     OVRInput.Button btn = OVRInput.Button.SecondaryIndexTrigger;
+    public Animator gunanim;
     void Start()
     {
         
@@ -103,9 +104,9 @@ public class Player : MonoBehaviour
                 {
                     gmAux = NormalAttack2;
                 }
+            gunanim.SetTrigger("s");
 
-
-                GameObject gm = Instantiate(gmAux, bulletPOint.transform.position, bulletPOint.transform.rotation);
+            GameObject gm = Instantiate(gmAux, bulletPOint.transform.position, bulletPOint.transform.rotation);
 
                 currentDamage = 0;
                 isCharging = false;
