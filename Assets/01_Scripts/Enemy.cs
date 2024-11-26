@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour, IEnemy
     public float maxDistance;
 
     public bool isWaiter = false;
-
+    public bool isAttacking2 = false;
    
     void Start()
     {
@@ -156,10 +156,12 @@ public class Enemy : MonoBehaviour, IEnemy
         {
             
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
+
             if (!isWalking) 
             {
                 // caminar animación;
                 isWalking = true;
+                anim.SetTrigger("Walk");
             }
 
         }
@@ -169,10 +171,10 @@ public class Enemy : MonoBehaviour, IEnemy
             {
                 isWalking = false;
 
-
-                //que ya no camine
-                Invoke("MakeAttackAnimation", timeBtwnAnimsNEar);// aver si da xd
+               
             }
+            if (!isAttacking2)
+            { isAttacking2 = true; anim.SetTrigger("Attack"); }
 
         }
     }

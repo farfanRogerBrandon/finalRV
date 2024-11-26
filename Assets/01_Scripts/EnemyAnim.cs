@@ -5,10 +5,20 @@ using UnityEngine;
 public class EnemyAnim : MonoBehaviour
 {
     // Start is called before the first frame update
-   public void Shoot()
+    Enemy e;
+
+    private void Start()
     {
-        Enemy e =transform.GetComponentInParent<Enemy>();
+        e = transform.GetComponentInParent<Enemy>();
+    }
+    public void Shoot()
+    {
         GameObject gmm = Instantiate(e.Bullet, e.BulletPoint.transform.position, e.BulletPoint.transform.rotation);
         gmm.GetComponent<Bullet>().speed = e.BulletSpeed;
+    }
+
+    public void finishAttack()
+    {
+      e.isAttacking2 = false;
     }
 }

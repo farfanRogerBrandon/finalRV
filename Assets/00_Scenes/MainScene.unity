@@ -5693,7 +5693,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 3.62
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -5701,7 +5701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6753,7 +6753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2483171112402213428, guid: f54012181eacade4ea242c65f804720f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.152
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2514675399181695721, guid: f54012181eacade4ea242c65f804720f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6761,7 +6761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2514675399181695721, guid: f54012181eacade4ea242c65f804720f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.172
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2514675399181695721, guid: f54012181eacade4ea242c65f804720f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7199,7 +7199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: c131908afbb05924986f1e95b0de6500, type: 3}
       propertyPath: isWaiter
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: c131908afbb05924986f1e95b0de6500, type: 3}
       propertyPath: timeBtwAttacks
@@ -7281,7 +7281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 2
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -7289,7 +7289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7446,7 +7446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 2.5
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -7454,7 +7454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7870,7 +7870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: f52fb0e490bcc9945acd3a1cfa6256fe, type: 3}
       propertyPath: BulletSpeed
-      value: 11
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: f52fb0e490bcc9945acd3a1cfa6256fe, type: 3}
       propertyPath: timeBtwAttacks
@@ -8664,7 +8664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 2
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -8672,7 +8672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9151,7 +9151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 1.2
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -9159,7 +9159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9533,7 +9533,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 2.5
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -9541,7 +9541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9619,7 +9619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 2
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -9627,7 +9627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9919,7 +9919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3317469488493851819, guid: f52fb0e490bcc9945acd3a1cfa6256fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.12999988
+      value: -1.23
       objectReference: {fileID: 0}
     - target: {fileID: 3317469488493851819, guid: f52fb0e490bcc9945acd3a1cfa6256fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10118,7 +10118,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 4
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
+      propertyPath: damage
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -10126,7 +10130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9131616683799867193, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: m_IsTrigger
@@ -10604,7 +10608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3317469488493851819, guid: f52fb0e490bcc9945acd3a1cfa6256fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.12999988
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 3317469488493851819, guid: f52fb0e490bcc9945acd3a1cfa6256fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10746,7 +10750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: f52fb0e490bcc9945acd3a1cfa6256fe, type: 3}
       propertyPath: BulletSpeed
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: f52fb0e490bcc9945acd3a1cfa6256fe, type: 3}
       propertyPath: timeBtwAttacks
@@ -13219,7 +13223,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 5
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
+      propertyPath: damage
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -13227,7 +13235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9131616683799867193, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: m_IsTrigger
@@ -14111,7 +14119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 1.2
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -14119,7 +14127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14441,7 +14449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3317469488493851819, guid: f52fb0e490bcc9945acd3a1cfa6256fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.13
+      value: 0.41000012
       objectReference: {fileID: 0}
     - target: {fileID: 3317469488493851819, guid: f52fb0e490bcc9945acd3a1cfa6256fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17125,7 +17133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 3
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -17133,7 +17141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17285,7 +17293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 2
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -17293,7 +17301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18242,7 +18250,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 6
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
+      propertyPath: damage
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -18250,7 +18262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9131616683799867193, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: m_IsTrigger
@@ -18332,7 +18344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: speed
-      value: 2.5
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: isWaiter
@@ -18340,7 +18352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097819107331533843, guid: 5d6fac6f8558d4c40b733229b2bf413e, type: 3}
       propertyPath: maxDistance
-      value: 1.6
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
