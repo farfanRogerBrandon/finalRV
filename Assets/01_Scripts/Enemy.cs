@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour, IEnemy
     void Start()
     {
        
-        target = GameObject.FindGameObjectWithTag("Player");
+        target = GameObject.FindGameObjectWithTag("MainCamera");
         float timemore = Random.Range(-2, 2.1f);
         timeBtwAttacks += timemore;
 
