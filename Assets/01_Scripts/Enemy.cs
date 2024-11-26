@@ -103,9 +103,18 @@ public class Enemy : MonoBehaviour, IEnemy
     {
         if (life <= 0)
         {
-           anim.SetTrigger("die");
+            if (enemyType != EnemyType.torreta && enemyType != EnemyType.cerca) 
+            {
+                  anim.SetTrigger("die");
+                Destroy(gameObject, 2f);
+
+            }
+            else
+            {
+                Destroy(gameObject);
+
+            }
             isDIed = true;
-            Destroy(gameObject, 1f);
         }
     }
 
@@ -122,6 +131,8 @@ public class Enemy : MonoBehaviour, IEnemy
             currentTime = 0;
             GameObject gmm =Instantiate(Bullet, BulletPoint.transform.position, BulletPoint.transform.rotation);
             gmm.GetComponent<Bullet>().speed = BulletSpeed;
+            anim.SetTrigger("attack2");
+
         }
     }
     public void Attack2()

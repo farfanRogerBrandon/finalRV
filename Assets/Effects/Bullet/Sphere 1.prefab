@@ -5137,7 +5137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 1
   damage: 5
-  speed: 13
+  speed: 22
   impactEffect: {fileID: 5298914616640010164, guid: 199affe09a4d9f145a22b1882b928651, type: 3}
 --- !u!135 &8910220957826038363
 SphereCollider:
