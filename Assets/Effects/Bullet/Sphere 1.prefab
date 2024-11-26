@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2713854065266440480
 Transform:
   m_ObjectHideFlags: 0
@@ -5008,8 +5008,8 @@ Transform:
   m_GameObject: {fileID: 7233571211492753941}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.75251, y: 0.75251, z: 0.75251}
+  m_LocalPosition: {x: 0, y: -7.761e-10, z: 0}
+  m_LocalScale: {x: 0.6726913, y: 0.6726913, z: 0.6726913}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6948864979086163461}
@@ -5053,7 +5053,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7233571211492753941}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5233,6 +5233,18 @@ PrefabInstance:
     - target: {fileID: 6374993969109500837, guid: da31b13339f559e49bdf4b7bda273a28, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
       value: 0.02352941
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302700625267718161, guid: da31b13339f559e49bdf4b7bda273a28, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3713013
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302700625267718161, guid: da31b13339f559e49bdf4b7bda273a28, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3713013
+      objectReference: {fileID: 0}
+    - target: {fileID: 7302700625267718161, guid: da31b13339f559e49bdf4b7bda273a28, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3713013
       objectReference: {fileID: 0}
     - target: {fileID: 7302700625267718161, guid: da31b13339f559e49bdf4b7bda273a28, type: 3}
       propertyPath: m_LocalPosition.x

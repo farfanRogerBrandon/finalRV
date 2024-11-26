@@ -103,7 +103,7 @@ public class Enemy : MonoBehaviour, IEnemy
     {
         if (life <= 0)
         {
-            if (enemyType != EnemyType.torreta && enemyType != EnemyType.cerca) 
+            if (enemyType != EnemyType.torreta ) 
             {
                   anim.SetTrigger("die");
                 Destroy(gameObject, 2f);
