@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7e8e1e35e9197124986620e55aa74e8c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - DangeRNighT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5b91f02a73d34bf42ab7b28336bf392a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
